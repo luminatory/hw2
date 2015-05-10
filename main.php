@@ -26,6 +26,6 @@ if (isset($_POST['lang']) && $_POST['lang'] == 'en') {
 	include_once 'cv_en.php';
 }elseif (isset($_POST['lang']) && $_POST['lang'] == 'ru') {
 	include_once 'cv_ru.php';
-} else echo "please choose one language";
+} else echo "Please choose one language";
 
 ?>
